@@ -1,0 +1,14 @@
+[
+  {
+    "Company": "company",
+    "User": "user",
+    "Pass": "1",
+    "expectedError": "INVALID_USER"
+  },
+  {
+    "Company": " ",
+    "User": " ",
+    "Pass": " ",
+    "expectedError": "Preencha os dados"
+  }
+]

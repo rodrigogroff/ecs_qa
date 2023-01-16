@@ -1,0 +1,32 @@
+[
+  {
+    "User": " ",
+    "Pass": "142536",
+    "expectedError": "Preencha os dados"
+  },
+  {
+    "User": "a@",
+    "Pass": "142536",
+    "expectedError": "INVALID_USER"
+  },
+  {
+    "User": "a",
+    "Pass": "142536",
+    "expectedError": "INVALID_USER"
+  },
+  {
+    "User": "@a.com.br",
+    "Pass": "142536",
+    "expectedError": "INVALID_USER"
+  },
+  {
+    "User": "test_user@test_user.com.br",
+    "Pass": " ",
+    "expectedError": "Preencha os dados"
+  },
+  {
+    "User": "test_user@test_user.com.br",
+    "Pass": "1",
+    "expectedError": "INVALID_USER"
+  }
+]
