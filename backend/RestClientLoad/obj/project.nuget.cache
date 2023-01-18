@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "29hnEwOjD0PwLhX3OqY9xlvBfg3kJ8c8QnObC1Dpz4oLZE2hhE4GtSimg+T4n/6QfDxSEPjIu4PJoGTNQQxvFw==",
+  "success": true,
+  "projectFilePath": "D:\\repos\\ecs\\backend\\RestClientLoad\\IntegrationLoad.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rodri\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

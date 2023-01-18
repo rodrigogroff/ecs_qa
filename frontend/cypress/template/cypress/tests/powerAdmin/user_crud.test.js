@@ -1,21 +1,5 @@
 import { autoRegisterLogin, checkForErrorMessage } from './lib/_util'
-import { setupUserForm, checkUserForm, findFirstUser } from './lib/_user_lib'
-
-/*
-describe('User CRUD [0]', () => {
-  it('change the first admin user', () => {
-    autoRegisterLogin();
-    findFirstUser();
-    let userName = 'master';
-    let userEmail = 'master@email.com'
-    let phone_mask = '(51) 99515-2432';
-    let userType = 'Perfil X';
-    setupUserForm(phone_mask, userType, userName, userEmail);
-    findFirstUser();
-    checkUserForm(phone_mask, userType, userName, userEmail);
-  })
-})
-*/
+import { setupUserForm, findFirstUser } from './lib/_user_lib'
 
 describe('User CRUD [1]', () => {
   it('change the first admin user', () => {

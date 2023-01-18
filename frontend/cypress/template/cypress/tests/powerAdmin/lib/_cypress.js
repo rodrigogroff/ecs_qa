@@ -31,7 +31,7 @@ export function wait(ms) {
 }
 
 export function baseUrl() {
-  return Cypress.env('baseUrl')
+  return Cypress.env('baseUrl_PA')
 }
 
 export function selectOption(id, option_text) {
