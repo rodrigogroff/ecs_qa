@@ -15,7 +15,7 @@ module.exports = defineConfig({
   },
   e2e: {
     specPattern: [
-      'cypress/tests/ABB/abb_login.test.js',
+      'cypress/tests/ABB/abb_descontos.test.js',
       /*
       'cypress/tests/powerAdmin/register.test.js',
       'cypress/tests/powerAdmin/login.test.js',
