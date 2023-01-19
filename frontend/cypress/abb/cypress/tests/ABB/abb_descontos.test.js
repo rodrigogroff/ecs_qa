@@ -4,12 +4,9 @@ import {
   loginCoordenador,
   loginPMS,
   novoOrcamento,
-  confereOrcamento,
   analiseDesconto,
   validacaoDesconto
 } from './lib/_util'
-
-import { click, } from './lib/_cypress'
 
 describe('T direto / comum / marcopolo / 15% [1]', () => {
   it('t1 automação ', () => {
@@ -37,11 +34,9 @@ describe('T direto / comum / marcopolo / 15% [1]', () => {
     //setup
     loginAdmin()
     novoOrcamento(test)
-
     loginCoordenador()
     analiseDesconto(test)
-
-    //check
+    //check      
     loginPMS()
     validacaoDesconto(test)
   })
